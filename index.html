@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+Author: Grant Gallagher
+Class: Web & Distributed Programming
+Project: Map Mania Lite    
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>Map Mania Lite</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <style>
+        #myMapID {
+            height: 100%;
+            width: 100%;
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body onload="initApplication()">
+  
+    <h1>Map Mania Lite</h1>
+   
+    <div id="myMapID"></div>
+   
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYe8WWjsWAQW4xTXJQAE8UQ0UM-5E8HsQ&callback=initMap"></script>
+</body>
+</html>
